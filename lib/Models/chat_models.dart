@@ -28,7 +28,7 @@ Widget showChat(ChatModel chatModel) {
                   topRight: Radius.circular(20),
                   bottomLeft: Radius.circular(20),
                 ),
-                color: Color.fromRGBO(190, 215, 210, 0.2),
+                color: Colors.blue.withOpacity(0.3)
               ),
               child: Text(chatModel.message),
             ),
